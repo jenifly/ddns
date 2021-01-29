@@ -42,7 +42,7 @@ class IP(object):
 class Aliyunddns(object):
   def __init__(self):
     self.local_ip = IP()
-    self.client = AcsClient('LTAIe22FMMuyzR6j', 'lWuTpekTvHylvUoiwVIUOHt9ZmkNsh')
+    self.client = AcsClient('xxxxxxxxxxxx', 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx')
     self.domain = 'hctpx.cn'
 
   def IsConnectNet(self):
